@@ -1,3 +1,7 @@
+/* en lugar de llamar a cada css en el html podemos llamar al que tiene las reglas más específicas
+y desde este llamar a los otros en el orden que se quieren aplicar las reglas */
+@import url('normalize.css');
+
 body {
   font-family: "Courier New", Courier, monospace;
 }
